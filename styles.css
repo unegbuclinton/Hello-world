@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+}
+
+.grid-box{
+    position: relative;
+    left: 30%;
+    top: 40%;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 700px;
+    height: auto;
+    margin-top: 150px;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 4px 8px 16px 0 grey;
+    
+}
+.first{
+    grid-column: 1/4;
+    background-color: white;
+    width: 640px;
+    padding: 30px;
+    border-radius: 5px 5px 0 0;
+}
+.second{
+    background-color: blue;
+    width: 320px;
+    color: white;
+    padding-left: 30px ;
+    padding-top: 50px;
+    height: 300px;
+    line-height: 40px;
+    font-family: monospace;
+    border-radius: 0 0 0 5px;
+}
+.last{
+    background-color: skyblue;
+    width: 335px;
+    color: white;
+    padding-left: 15px ;
+    line-height: 30px;
+    padding-top: 50px;
+    font-family: monospace;
+    border-radius: 0 0 5px 0;
+}
+.first>h3{
+    color: blue;
+}
+.first>h4{
+    color: lightgreen;
+}
+.first>p{
+        color: grey;
+    }
+    button{
+        margin-top: 20px;
+        margin-bottom: 15px;
+        margin-left: 60px;
+        padding: 10px 70px 10px 70px;
+        background-color: green;
+        color: white;
+        border-radius: 5px;
+        }
+    .keyword{
+        font-weight: bolder;
+        font-size: medium;
+    }
